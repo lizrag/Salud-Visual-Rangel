@@ -1,0 +1,27 @@
+{
+  "name": "salud-visual-rangel",
+  "version": "1.0.0",
+  "description": "This is a website builded with bootstrap & NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizrag/Salud-Visual-Rangel.git"
+  },
+  "author": "Liz Rangel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lizrag/Salud-Visual-Rangel/issues"
+  },
+  "homepage": "https://github.com/lizrag/Salud-Visual-Rangel#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "type": "module"
+}
