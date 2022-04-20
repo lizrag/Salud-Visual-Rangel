@@ -1,12 +1,12 @@
 import express from "express";
+import routesRouter from './routes/routes.js'
 
 const app = express();
-const port = 8080;
+const PORT = 8080;
 
-app.get('/', (req, res) => {
-    return res.send('Hello world, Liz!');
+app.listen(PORT, () => {
+    console.log(`App server is ready on port ${PORT}!`)
 });
 
-app.listen(port, () => {
-    console.log(`App server is ready on port ${port}!`)
-});
+app.use(express.static('/public'));
+app.use('/routes',routesRouter);
