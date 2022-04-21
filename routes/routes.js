@@ -1,9 +1,22 @@
 import express from "express";
+import __dirname from "../utils.js";
 
-const routesRouter = express.Router();
+const router = express.Router();
 
-routesRouter.get('/', (req, res) => {
-    return res.send('Hello world, Liz!');
+router.get('/', (req, res) => {
+    res.sendFile(__dirname+'/index.html')
 });
 
-export default routesRouter;
+router.get('/services',(req,res)=>{
+   res.sendFile(__dirname+'/services.html')
+})
+
+router.get('/products',(req,res)=>{
+    res.sendFile(__dirname+'/products.html')
+})
+
+router.get('/contact',(req,res)=>{
+    res.sendFile(__dirname+'/contact.html')
+})
+
+export default router;
