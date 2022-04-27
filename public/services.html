@@ -7,54 +7,80 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/styles.css">
     <title>Servicios</title>
 </head>
 <body>
-
-    <header>
-        <div class="container">
-            <!-- main header -->
-            <div class="row text-center">
-                <div class="col">
-                    #hamburger-menu
+    <header class="svr-header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                <img src="img/logocirculo.png" alt="Logo Salud Visual Rangel" width="100"> 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Contáctanos</a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="col">
-                    #logo
-                </div>
-                <div class="col">
-                    #icon-phone
-                </div>
-            </div>
-        </div>
+              </div>
+        </nav>
     </header>
     <main>
-        <div class="container">
-            <!--photos-service-->
-            <div class="container">
-                <div class="col text-center">
-                    #oftamologia
-                </div>
+        <h2>Nuestros Servicios</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <h5 class="card-title">Oftamología</h5>
+                <img src="img/oftamología.jpeg" class="card-img-top" alt="...">
+              </div>
             </div>
-            <div class="container">
-                <div class="col text-center">
-                    #optometria
-                </div>
+            <div class="col">
+              <div class="card h-100">
+                <h5 class="card-title">Optometría</h5>
+                <img src="img/optometría.jpeg" class="card-img-top" alt="...">
+              </div>
             </div>
-            <div class="container">
-                <div class="col text-center">
-                    #laboratorio
-                </div>
+            <div class="col">
+              <div class="card h-100">
+                <h5 class="card-title">Laboratorio</h5>
+                <img src="img/lab.jpeg" class="card-img-top-thumbnail" alt="...">
+              </div>
             </div>
-        </div>
+          </div>
     </main>
-    <footer>
-        <div class="container">
-            <!--footer-->
-            <div class="row text-center">
-                <div class="col">#logo</div>
-                <div class="col text-end">#mail</div>
-            </div>
+    <footer class="svr-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <img src="img/logolentes.png" alt="Logo lentes SVR" width="100">
+          </div>
+          <div class="col text-center">
+            <h4>Teléfono</h4>
+                <a href="tel:63383673">63383673</a>
+            <h4>Whatssap</h4>
+                <a href=https://api.whatsapp.com/send?phone=5216331321637&text=Hola!%20Me%20gustar%C3%ADa%20agendar....>6331321637</a>
+          </div>
+          <div class="col text-center">
+            <h4>Correo</h4>
+                  <a href="mailto:saludvisualrangel@gmail.com">saludvisualrangel@gmail.com</a>
+          </div>
         </div>
+      </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
 </body>
