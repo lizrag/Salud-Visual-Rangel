@@ -1,18 +1,42 @@
 .svr-header{
-    background-color: rgb(100, 165, 185);
+    background-color: #007eae;
 }
 
 .svr-footer{
-    background-color: rgb(100, 165, 185);
+    background-color: #007eae;
 }
 
-.body{
-    background-color: rgb(159, 208, 205);
-}
 
 h2{
     text-align: center;
 }
 h3{
     text-align: center;
+}
+
+.card-title{
+    color: #007eae;
+}
+
+.svr-slogan{
+    background-color: #cdf1fd;
+}
+
+.svr-main-home{
+    background-color: #9ccdca;
+    color: #fff;
+}
+
+.svr-whys{
+    font-weight: bold;
+}
+
+.footer-contact-info{
+    list-style: none;
+    color: #fff;
+}
+.footer-contact-info a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
 }
