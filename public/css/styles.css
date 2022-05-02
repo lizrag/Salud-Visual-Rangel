@@ -9,9 +9,12 @@
 
 h2{
     text-align: center;
+    color: #007eae;
+
 }
 h3{
     text-align: center;
+
 }
 
 .card-title{
@@ -25,6 +28,16 @@ h3{
 .svr-main-home{
     background-color: #9ccdca;
     color: #fff;
+}
+
+.svr-direction{
+    text-decoration: none;
+    color: #007eae;
+
+}
+.svr-direction-bold{
+    color: #007eae;
+    font-weight: bold;
 }
 
 .svr-whys{
